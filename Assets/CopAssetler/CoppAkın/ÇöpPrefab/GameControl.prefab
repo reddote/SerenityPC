@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4048939981907100098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4048939981907100100}
+  - component: {fileID: 4048939981907100101}
+  - component: {fileID: 5576996329868064383}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4048939981907100100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048939981907100098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.0693, y: -1.7954899, z: 9.017258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4048939981907100101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048939981907100098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3affa986a5a13245b3342dfc663366a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pPosx: 0
+  pPosy: 0
+  pPosz: 0
+  health: 0
+  laserPrefab: {fileID: 0}
+  flamePrefab: {fileID: 0}
+  mechPrefab: {fileID: 0}
+  icePrefab: {fileID: 0}
+  Sun: {fileID: 0}
+  Moon: {fileID: 0}
+  flameTur:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  laserTur:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  mechTur:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  iceTur:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  sunPosy: 0
+  sunPosz: 0
+  sunRotx: 0
+  sunRoty: 0
+  moonPosy: 0
+  moonPosz: 0
+  moonRotx: 0
+  moonRoty: 0
+  flameNum: 0
+  laserNum: 0
+  mechNum: 0
+  iceNum: 0
+  Loaded: 0
+  inventorySlot: 0
+  turretsInScene: []
+  items: 
+  itemCount: 
+  iter: 0
+--- !u!114 &5576996329868064383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048939981907100098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7fe7ae776757a4191b069d08ad37a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipSlotRect: {fileID: 0}
+  buttonGO:
+  - {fileID: 0}
+  - {fileID: 0}
+  itemsGameObject:
+  - {fileID: 6176983475979891900, guid: 3c471e0982672a74f820f000274eac60, type: 3}
+  - {fileID: 8880682698774109850, guid: d73696a082875b04aa29a162739238b6, type: 3}
+  - {fileID: 6455651571652022637, guid: 50df8755082ebf5449c35ee511c77ef1, type: 3}
+  - {fileID: 1410952271354333129, guid: 39d6f59f2dd0def448723dbbf97748a0, type: 3}
+  - {fileID: 8223539429448915913, guid: b4d0b2459c5f26347b8d7a80af1f77de, type: 3}
+  parentGO:
+  - {fileID: 0}
+  - {fileID: 0}
+  secretItemSlotGO: {fileID: 3982775163327324500, guid: cd4a64be4299a5048bb8e4ecf9c501d8,
+    type: 3}
+  noneSecretItemSlotGO: {fileID: 1333595714975242741, guid: a9093a40c03808444ac581b1e7b23513,
+    type: 3}
+  rectTransformsGO: []
+  rectGUITransformsGO: []
+  itemsID: 0000000000000000000000000000000000000000
+  itemsName:
+  - 
+  - 
+  - 
+  - 
+  - 
+  slotNumber: 
+  inventorySlotCap: 2
+  InventorySlotText:
+  - 
+  - 
