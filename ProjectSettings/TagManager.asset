@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shootable
+  - Fire
+  - LightDetection
+  - Sun
+  - Moon
+  - Monster
+  - Undefined
+  - Inventory
+  - CollectebleItems
+  - TurretCollider
+  - Base
+  - Drone
+  - FlameParticle
+  - crit
+  - Vehicle
+  - VehicleCamera
+  - EnterExitPoint
+  - Wheel
+  - CraftableItems
+  - Egun
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Lighting
+  - Ground
+  - Postprocessing
+  - StaticInteractables
+  - Interactables
+  - LightDetection
+  - Turret
+  - Flame
+  - Weapons
+  - Player
+  - Base
+  - WheelControllerIgnore
+  - notSeen
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
